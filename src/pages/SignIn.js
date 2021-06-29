@@ -1,4 +1,5 @@
 import React from 'react';
+import './SignIn.css';
 
 const SignIn = () => {
   return (
@@ -10,7 +11,9 @@ const SignIn = () => {
           social network
         </span>
         <button className="social-signin facebook">Log in with facebook</button>
+        <br/>
         <button className="social-signin twitter">Log in with Twitter</button>
+        <br/>
         <button className="social-signin google">Log in with Google+</button>
       </div>
       <div className="signup-box">
@@ -26,3 +29,5 @@ const SignIn = () => {
     </div>
   );
 };
+
+export default SignIn;
