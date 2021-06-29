@@ -1,3 +1,2 @@
 # sidebar-starter
-
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/sidebar-starter)
+Simple starter template for implemting a sidebar with routing.
