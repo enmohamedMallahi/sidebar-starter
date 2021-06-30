@@ -1,13 +1,13 @@
 .main-box {
   display: flex;
   height: 90vh;
-  width: 100vw;
+  /* width: 100vw; */
   color: #2c3e50;
 }
 
 .signin-box,
 .signup-box {
-  padding: 0rem 2rem;
+  /* padding: 0rem 2rem; */
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -30,8 +30,6 @@ h1 {
   background: url('https://images.pexels.com/photos/8443482/pexels-photo-8443482.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
   background-size: cover;
   background-position: center;
-  border-radius: 0 2px 2px 0;
-  border-right: 1px solid red;
 }
 
 .signin-box .loginwith {
@@ -132,8 +130,12 @@ input[type='submit']:active {
 }
 
 /* Responsive  */
-/* @media (max-width: 500px) {
+@media screen and (max-width: 540px) {
   .main-box {
     flex-direction: column;
+    height: 200vh;
   }
-} */
+  .signin-box,
+  .signup-box {
+  }
+}

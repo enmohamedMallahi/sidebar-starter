@@ -9,11 +9,12 @@
 
 body {
   background-color: #ecf0f1;
+  scroll-behavior: smooth;
 }
 
 .home,
 .reports,
 .products {
   /* height: 90vh; */
-  padding: .5rem 2rem;
+  padding: 0.5rem 2rem;
 }
